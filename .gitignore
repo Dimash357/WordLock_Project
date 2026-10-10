@@ -1,72 +1,35 @@
-# Python
-
-**pycache**/
-*.py[cod]
-*$py.class
-
-# Virtual environments
-
-.venv/
-venv/
-env/
-ENV/
-
 # IDE
-
-.vscode/
 .idea/
+.vscode/
 
-# Python packaging
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
+# Xcode
 build/
-dist/
-*.egg-info/
-.eggs/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
 
-# Test and coverage
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
 
-.pytest_cache/
-.coverage
-htmlcov/
+# Temporary files
+*.log
+*.tmp
+*.swp
 
-# Local configuration
+# Python (если используешь скрипты)
+__pycache__/
+*.pyc
+.venv/
 
+# Secrets
 .env
 .env.*
 !.env.example
-
-# Application logs and local data
-
-*.log
-.sentinelscan_history.json
-sentinelscan_history.json
-
-# OS files
-
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Temporary files
-
-*.tmp
-*.temp
-*.swp
-*.swo
-
-# Local malware samples
-
-samples/
-malware/
-quarantine/
-
-# Generated executables
-
-*.exe
-*.msi
-
-# Local development files
-
-.vscode/
-.idea/
-
