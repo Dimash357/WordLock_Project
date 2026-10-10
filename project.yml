@@ -1,0 +1,37 @@
+name: WordLock
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "17.0"
+settings:
+  base:
+    SWIFT_VERSION: 5.0
+targets:
+  WordLock:
+    type: application
+    platform: iOS
+    sources:
+      - path: WordLock
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.WordLock
+        CODE_SIGN_ENTITLEMENTS: WordLock/WordLock.entitlements
+        GENERATE_INFOPLIST_FILE: YES
+    dependencies:
+      - target: WordLockWidgetExtension
+        embed: true
+  WordLockWidgetExtension:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: WordLockWidget
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.WordLock.Widget
+        CODE_SIGN_ENTITLEMENTS: WordLockWidget/WordLockWidget.entitlements
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: WordLockWidget/Info.plist
+        SKIP_INSTALL: YES
+        APPLICATION_EXTENSION_API_ONLY: YES
