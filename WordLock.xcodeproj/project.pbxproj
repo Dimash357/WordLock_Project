@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2541BBBB41C674A9A04AF7E8 /* WordLockWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 69B379FBEB2D009097F90C93 /* WordLockWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6373E7EED88D9815BA029427 /* WordStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575C6AEE95FA0D640AFB4EE9 /* WordStore.swift */; };
+		672717D0CF000A02E06B74E7 /* WordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F279B07B83F226EC58A5E34 /* WordItem.swift */; };
+		6D1C104C3065598C008963A5 /* PreIntermediateVocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1C104B30655975008963A5 /* PreIntermediateVocabulary.swift */; };
+		6D1C104D3065598C008963A5 /* PreIntermediateVocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1C104B30655975008963A5 /* PreIntermediateVocabulary.swift */; };
+		731A49A4472D794036D45CD6 /* WordLockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D126D5AB208BCE40A330BE /* WordLockWidget.swift */; };
+		9DB14FDADE688C3AE86DEE6C /* WordLockWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F825AA211DC872C17874F8E8 /* WordLockWidgetBundle.swift */; };
+		A41528D9EB538FE986764B80 /* WordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F279B07B83F226EC58A5E34 /* WordItem.swift */; };
+		D6E05DB7E803FECB626AF9DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F940953E3ECDA29B9AFF0544 /* ContentView.swift */; };
+		E7F383F72C44AEFE3A5DD601 /* WordLockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987C65DDDE98061D77104435 /* WordLockApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE7225BC9819F6F1D86BD569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCBFD1A45F7E7B870E96A7E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF68809D0AB97C75D209A118;
+			remoteInfo = WordLockWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63F094B27D4951FE1071217A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2541BBBB41C674A9A04AF7E8 /* WordLockWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F279B07B83F226EC58A5E34 /* WordItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordItem.swift; sourceTree = "<group>"; };
+		575C6AEE95FA0D640AFB4EE9 /* WordStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordStore.swift; sourceTree = "<group>"; };
+		69B379FBEB2D009097F90C93 /* WordLockWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WordLockWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D1C104B30655975008963A5 /* PreIntermediateVocabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreIntermediateVocabulary.swift; sourceTree = "<group>"; };
+		844EF1B5809FEB9C06541B74 /* WordLockWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WordLockWidget.entitlements; sourceTree = "<group>"; };
+		987C65DDDE98061D77104435 /* WordLockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLockApp.swift; sourceTree = "<group>"; };
+		9E4EEA0B13DC84BE49D50D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C4D126D5AB208BCE40A330BE /* WordLockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLockWidget.swift; sourceTree = "<group>"; };
+		D360284DE9586E3D60D9A932 /* WordLock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WordLock.entitlements; sourceTree = "<group>"; };
+		EF107F9784A28871B60A46DA /* WordLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F825AA211DC872C17874F8E8 /* WordLockWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLockWidgetBundle.swift; sourceTree = "<group>"; };
+		F940953E3ECDA29B9AFF0544 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1E83885D425651800DA6371B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6D1C104B30655975008963A5 /* PreIntermediateVocabulary.swift */,
+				0F279B07B83F226EC58A5E34 /* WordItem.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BA9E69BB23C451C470DDC583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF107F9784A28871B60A46DA /* WordLock.app */,
+				69B379FBEB2D009097F90C93 /* WordLockWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAC891D1134F008B9B075231 /* WordLockWidget */ = {
+			isa = PBXGroup;
+			children = (
+				9E4EEA0B13DC84BE49D50D74 /* Info.plist */,
+				844EF1B5809FEB9C06541B74 /* WordLockWidget.entitlements */,
+				C4D126D5AB208BCE40A330BE /* WordLockWidget.swift */,
+				F825AA211DC872C17874F8E8 /* WordLockWidgetBundle.swift */,
+			);
+			path = WordLockWidget;
+			sourceTree = "<group>";
+		};
+		C3E0C6B2C4542C0B62FA5036 = {
+			isa = PBXGroup;
+			children = (
+				1E83885D425651800DA6371B /* Shared */,
+				D514AEB24198FBB0020D1568 /* WordLock */,
+				BAC891D1134F008B9B075231 /* WordLockWidget */,
+				BA9E69BB23C451C470DDC583 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D514AEB24198FBB0020D1568 /* WordLock */ = {
+			isa = PBXGroup;
+			children = (
+				F940953E3ECDA29B9AFF0544 /* ContentView.swift */,
+				D360284DE9586E3D60D9A932 /* WordLock.entitlements */,
+				987C65DDDE98061D77104435 /* WordLockApp.swift */,
+				575C6AEE95FA0D640AFB4EE9 /* WordStore.swift */,
+			);
+			path = WordLock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF68809D0AB97C75D209A118 /* WordLockWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D317B9C60F6AEDCA4C9C3E /* Build configuration list for PBXNativeTarget "WordLockWidgetExtension" */;
+			buildPhases = (
+				8ABD7BDC0E2FAEE16E24389B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordLockWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = WordLockWidgetExtension;
+			productReference = 69B379FBEB2D009097F90C93 /* WordLockWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FD20F6CEF3EE29249A128D04 /* WordLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CBFED795EC32BD1ACCFABE /* Build configuration list for PBXNativeTarget "WordLock" */;
+			buildPhases = (
+				7025AA8E541C02C79DA7B7F4 /* Sources */,
+				63F094B27D4951FE1071217A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82F5A10AB7BC0D6A14D637AC /* PBXTargetDependency */,
+			);
+			name = WordLock;
+			packageProductDependencies = (
+			);
+			productName = WordLock;
+			productReference = EF107F9784A28871B60A46DA /* WordLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCBFD1A45F7E7B870E96A7E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 635BB9FB1AE7EDEED5F8CE41 /* Build configuration list for PBXProject "WordLock" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C3E0C6B2C4542C0B62FA5036;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BA9E69BB23C451C470DDC583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD20F6CEF3EE29249A128D04 /* WordLock */,
+				DF68809D0AB97C75D209A118 /* WordLockWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7025AA8E541C02C79DA7B7F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E05DB7E803FECB626AF9DB /* ContentView.swift in Sources */,
+				6D1C104D3065598C008963A5 /* PreIntermediateVocabulary.swift in Sources */,
+				672717D0CF000A02E06B74E7 /* WordItem.swift in Sources */,
+				E7F383F72C44AEFE3A5DD601 /* WordLockApp.swift in Sources */,
+				6373E7EED88D9815BA029427 /* WordStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABD7BDC0E2FAEE16E24389B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1C104C3065598C008963A5 /* PreIntermediateVocabulary.swift in Sources */,
+				A41528D9EB538FE986764B80 /* WordItem.swift in Sources */,
+				731A49A4472D794036D45CD6 /* WordLockWidget.swift in Sources */,
+				9DB14FDADE688C3AE86DEE6C /* WordLockWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82F5A10AB7BC0D6A14D637AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF68809D0AB97C75D209A118 /* WordLockWidgetExtension */;
+			targetProxy = DE7225BC9819F6F1D86BD569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0423EF32BFD95A3D54DADCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		435C54559878334419659F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WordLock/WordLock.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = XP3W47L2QD;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.katsuro.WordLock;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CE52A106E893E9F983EFACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = WordLockWidget/WordLockWidget.entitlements;
+				DEVELOPMENT_TEAM = XP3W47L2QD;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WordLockWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.katsuro.WordLock.Widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		736E6B332BEC86F60E7826D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WordLock/WordLock.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = XP3W47L2QD;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.katsuro.WordLock;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB7618E7482098FB9DD87706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = WordLockWidget/WordLockWidget.entitlements;
+				DEVELOPMENT_TEAM = XP3W47L2QD;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WordLockWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.katsuro.WordLock.Widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF43FEFD6E857FD19A8CA308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05CBFED795EC32BD1ACCFABE /* Build configuration list for PBXNativeTarget "WordLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435C54559878334419659F60 /* Debug */,
+				736E6B332BEC86F60E7826D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		635BB9FB1AE7EDEED5F8CE41 /* Build configuration list for PBXProject "WordLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF43FEFD6E857FD19A8CA308 /* Debug */,
+				0423EF32BFD95A3D54DADCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D9D317B9C60F6AEDCA4C9C3E /* Build configuration list for PBXNativeTarget "WordLockWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE52A106E893E9F983EFACE /* Debug */,
+				AB7618E7482098FB9DD87706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCBFD1A45F7E7B870E96A7E3 /* Project object */;
+}

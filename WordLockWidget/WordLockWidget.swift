@@ -45,8 +45,9 @@ struct WordLockWidgetView: View {
                         .font(.headline)
                         .lineLimit(1)
                     Text(entry.word.translation)
-                        .font(.caption)
-                        .lineLimit(1)
+                        .font(.caption2)
+                        .lineLimit(2)
+                        .minimumScaleFactor(0.7)
                 }
 
                 Spacer(minLength: 2)

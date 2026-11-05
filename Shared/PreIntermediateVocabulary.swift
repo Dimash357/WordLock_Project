@@ -5,11 +5,11 @@ enum PreIntermediateVocabulary {
         .split(separator: "\n")
         .compactMap { line in
             let parts = line.split(separator: "|", maxSplits: 1)
-            guard parts.count == 2 else { return nil }
+            guard parts.count == 2 else { return nil}
             return WordItem(english: String(parts[0]), translation: String(parts[1]))
         }
         .prefix(500))
-
+    
     private static let raw = """
 ability|способность
 abroad|за границей

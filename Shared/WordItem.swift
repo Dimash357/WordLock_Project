@@ -9,7 +9,7 @@ struct WordItem: Identifiable, Codable, Hashable {
 }
 
 enum WordDefaults {
-    static let appGroup = "group.com.example.WordLock"
+    static let appGroup = "group.com.dimash.wordlock"
     static let storageKey = "savedWords"
     static let learnedKey = "learnedWords"
     static let currentWordKey = "currentWord"
