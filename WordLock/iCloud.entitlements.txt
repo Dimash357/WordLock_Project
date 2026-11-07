@@ -1,0 +1,8 @@
+Для синхронизации через iCloud (нужен платный Apple Developer Program):
+1. Откройте WordLock/WordLock.entitlements и добавьте внутрь <dict>:
+
+	<key>com.apple.developer.ubiquity-kvstore-identifier</key>
+	<string>$(TeamIdentifierPrefix)$(CFBundleIdentifier)</string>
+
+2. В Xcode: цель WordLock → Signing & Capabilities → + Capability → iCloud → включить "Key-value storage".
+Без этого приложение работает, но прогресс не синхронизируется между устройствами.
